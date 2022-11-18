@@ -1,0 +1,725 @@
+/*
+========================================================
+Responsive Breakpoint
+========================================================
+*/
+@media (max-width: 1799px) {
+  /* 
+	--------------------------------------
+	Check Section Responsive
+	--------------------------------------
+	*/
+  .check-services-img .check-services-car {
+    right: 1%;
+  }
+
+  /* 
+	--------------------------------------
+	News Section Responsive
+	--------------------------------------
+	*/
+  .news-car-left {
+    bottom: 11.3%;
+  }
+}
+
+@media (max-width: 1599px) {
+  /* 
+	--------------------------------------
+	Projects Section Responsive
+	--------------------------------------
+	*/
+  .projects-icon-left {
+    left: 0%;
+  }
+
+  .projects-icon-right {
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 1399px) {
+  /* 
+  --------------------------------------
+  Variables
+  --------------------------------------
+  */
+  :root {
+    /*________ Font Size ________*/
+    --size-4xl: 5rem;
+  }
+
+  /* 
+	--------------------------------------
+	Banner Section Responsive
+	--------------------------------------
+	*/
+  .banner-section {
+    padding: 23rem 0 25rem;
+  }
+
+  .banner-content .banner-desc {
+    margin: 1.5rem 0 3rem;
+  }
+
+  /* 
+	--------------------------------------
+	Projects Section Responsive
+	--------------------------------------
+	*/
+  .projects-icon-left {
+    bottom: 5%;
+  }
+
+  .projects-icon-left {
+    left: 0%;
+  }
+
+  /* 
+	--------------------------------------
+	News Section Responsive
+	--------------------------------------
+	*/
+  .news-car-left {
+    bottom: 13%;
+    max-width: 17rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* 
+  --------------------------------------
+  Variables
+  --------------------------------------
+  */
+  :root {
+    /*________ Font Size ________*/
+    --size-4xl: 4rem;
+    --size-2xl: 2rem;
+  }
+
+  /* 
+	--------------------------------------
+	Reuseble Components Responsive
+	--------------------------------------
+	*/
+  .link-btn {
+    padding: 1.4rem 2rem;
+  }
+
+  .pulse-btn {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .pulse-btn img {
+    width: 2rem;
+    height: 2.8rem;
+  }
+
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .navbar-area .menu > .menu-item:not(:last-child) {
+    margin-right: 3rem;
+  }
+
+  /* 
+	--------------------------------------
+	Banner Section Responsive
+	--------------------------------------
+	*/
+  .banner-content .banner-desc {
+    padding-right: 0;
+  }
+
+  /* 
+	--------------------------------------
+	Service Section Responsive
+	--------------------------------------
+	*/
+  .c-l-t-col:nth-child(1) .contact::after {
+    right: 0rem;
+  }
+
+  .c-l-t-col:nth-child(2) .contact::after {
+    right: -2rem;
+  }
+
+  .service-text-wrap {
+    padding: 3rem 1.7rem;
+  }
+
+  /* 
+	--------------------------------------
+	Center Section Responsive
+	--------------------------------------
+	*/
+  .center-circle {
+    max-width: 18rem;
+  }
+
+  /* 
+	--------------------------------------
+	Projects Section Responsive
+	--------------------------------------
+	*/
+  .projects-icon-right {
+    max-width: 14rem;
+  }
+
+  /* 
+	--------------------------------------
+	Mechanic Section Responsive
+	--------------------------------------
+	*/
+  .mechanic-bg {
+    max-width: 55rem;
+  }
+
+  /* 
+	--------------------------------------
+	Check Section Responsive
+	--------------------------------------
+	*/
+  .check-services-img .check-services-street {
+    left: 0;
+    max-width: 44rem;
+  }
+
+  .check-services-img .check-services-car {
+    right: 8%;
+    bottom: 14%;
+    max-width: 45rem;
+  }
+
+  /* 
+	--------------------------------------
+	Testimonial Section Responsive
+	--------------------------------------
+	*/
+  .testimonial-section {
+    padding-bottom: 8rem;
+  }
+
+  .testimonial-left-img img {
+    margin-bottom: -65rem;
+  }
+
+  /* 
+	--------------------------------------
+	News Section Responsive
+	--------------------------------------
+	*/
+  .news-car-left {
+    bottom: 15%;
+    max-width: 19rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* 
+  --------------------------------------
+  Variables
+  --------------------------------------
+  */
+  :root {
+    /*________ Font Size ________*/
+    --size-xl: 1.8rem;
+  }
+
+  /* 
+	--------------------------------------
+	Banner Section Responsive
+	--------------------------------------
+	*/
+  .banner-section {
+    padding: 20rem 0 24rem;
+  }
+
+  /* 
+	--------------------------------------
+	Service Section Responsive
+	--------------------------------------
+	*/
+  .c-l-t-col:nth-child(1) .contact::after {
+    right: 1.5rem;
+  }
+
+  .c-l-t-col:nth-child(2) .contact::after {
+    right: 0rem;
+  }
+
+  /* 
+	--------------------------------------
+	Check Section Responsive
+	--------------------------------------
+	*/
+  .check-services-content {
+    padding-left: 0rem;
+  }
+
+  /* 
+	--------------------------------------
+	Packages Section Responsive
+	--------------------------------------
+	*/
+  .packages-col-1 .packages-content,
+  .packages-col-2 .packages-content {
+    margin-bottom: 3rem !important;
+  }
+
+  /* 
+	--------------------------------------
+	Testimonial Section Responsive
+	--------------------------------------
+	*/
+  .testimonial-section {
+    padding-bottom: 7rem;
+  }
+
+  .testimonial-left-img img {
+    margin-bottom: -65.5rem;
+  }
+
+  .testimonial-slide {
+    margin-top: 6rem;
+  }
+
+  /* 
+	--------------------------------------
+	News Section Responsive
+	--------------------------------------
+	*/
+  .news-section {
+    padding-bottom: 31.5rem;
+  }
+
+  .news-col-1,
+  .news-col-2 {
+    margin-bottom: 3rem;
+  }
+
+  /* 
+	--------------------------------------
+	News Section Responsive
+	--------------------------------------
+	*/
+  .news-car-left {
+    bottom: 20%;
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* 
+  --------------------------------------
+  Variables
+  --------------------------------------
+  */
+  :root {
+    /*________ Font Size ________*/
+    --size-4xl: 3.1rem;
+    --size-3xl: 3.5rem;
+    --size-lg: 1.6rem;
+  }
+
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .header-top {
+    display: none;
+  }
+
+  .header .menu-overlay.active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .header .navbar-area {
+    position: fixed;
+    top: 0;
+    left: -18rem;
+    min-width: 32rem;
+    height: 100%;
+    padding: 1rem 0;
+    z-index: 999;
+    opacity: 0;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: var(--primary-bg);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  .header .navbar-area.active {
+    left: 0rem;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .header .navbar-area::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  .header .navbar-area::-webkit-scrollbar-thumb {
+    background-color: var(--third-bg);
+  }
+
+  .navbar-area .menu {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+  .navbar-area .menu > .menu-item {
+    display: block;
+  }
+
+  .navbar-area .menu > .menu-item:not(:last-child) {
+    margin-right: 0rem;
+  }
+
+  .navbar-area .menu > .menu-item-has-children > a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .navbar-area .menu > .menu-item > a {
+    padding: 0.8rem 1rem;
+    color: var(--primary-color);
+    border-bottom: 0.1rem solid #e8e3e3;
+  }
+
+  .navbar-area .menu > .menu-item:first-child > a {
+    border-top: 1px solid #e8e3e3;
+  }
+
+  .navbar-area .menu > .menu-item:hover > a .expand {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  .navbar-area .menu > .menu-item > a .expand {
+    margin-left: 0;
+    -webkit-filter: invert(8%) sepia(19%) saturate(0%) hue-rotate(258deg)
+      brightness(30%) contrast(96%);
+            filter: invert(8%) sepia(19%) saturate(0%) hue-rotate(258deg)
+      brightness(30%) contrast(96%);
+  }
+
+  .navbar-area .menu > .menu-item-has-children.active > a .expand {
+    -webkit-transform: rotate(178deg);
+    -ms-transform: rotate(178deg);
+    transform: rotate(178deg);
+    -webkit-filter: invert(30%) sepia(73%) saturate(6551%) hue-rotate(336deg)
+      brightness(100%) contrast(89%);
+            filter: invert(30%) sepia(73%) saturate(6551%) hue-rotate(336deg)
+      brightness(100%) contrast(89%);
+  }
+
+  .navbar-area .menu > .menu-item > .sub-menu {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    padding: 0;
+    border-top: none;
+    opacity: 1;
+    overflow: hidden;
+    visibility: visible;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  .navbar-area .menu > .menu-item > .sub-menu > .menu-item > a {
+    padding: 0.8rem 2rem;
+    border-bottom: 0.1rem solid #e8e3e3;
+  }
+
+  .header .opened-menu-btn {
+    display: block;
+  }
+
+  .navbar-area .closed-menu-btn {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 1.2rem;
+    right: 1.2rem;
+  }
+
+  /* 
+	--------------------------------------
+	Banner Section Responsive
+	--------------------------------------
+	*/
+  .banner-section {
+    padding: 15rem 0 22rem;
+  }
+
+  /* 
+	--------------------------------------
+	Service Section Responsive
+	--------------------------------------
+	*/
+  .service-section {
+    padding-top: 41rem;
+  }
+
+  .contact-location-time {
+    margin-top: -52rem;
+  }
+
+  .c-l-t-col:not(:last-child) .contact::after {
+    width: 0.1rem;
+    height: 11rem;
+  }
+
+  .c-l-t-col:nth-child(2) .contact::after {
+    display: none;
+  }
+
+  .c-l-t-col:nth-child(1) .contact::after {
+    right: -1.5rem;
+  }
+
+  /* 
+	--------------------------------------
+	Packages Section Responsive
+	--------------------------------------
+	*/
+  .packages-content {
+    padding: 2rem 2rem 9rem;
+  }
+
+  .packages-tab .packages-tablink {
+    margin: 0 1rem 3rem;
+  }
+
+  /* 
+	--------------------------------------
+	News Section Responsive
+	--------------------------------------
+	*/
+  .news-list .news-list-item p {
+    font-size: 1.1rem;
+  }
+
+  /* 
+	--------------------------------------
+	News Section Responsive
+	--------------------------------------
+	*/
+  .news-car-left {
+    bottom: 17%;
+    max-width: 18rem;
+  }
+}
+
+@media (max-width: 575px) {
+  /*
+  --------------------------------------
+  Variables
+  --------------------------------------
+  */
+  :root {
+    /*________ Font Size ________*/
+    --size-4xl: 3rem;
+  }
+
+  /* 
+	-------------------------------------------
+	Reuseble Css Classes Section Responsive
+	-------------------------------------------
+	*/
+  .wrapper {
+    padding: 0 1.5rem;
+  }
+
+  /* 
+	--------------------------------------
+	Banner Section Responsive
+	--------------------------------------
+	*/
+  .banner-section {
+    padding: 12rem 0 20rem;
+  }
+
+  /* 
+	--------------------------------------
+	Service Section Responsive
+	--------------------------------------
+	*/
+  .contact-location-time {
+    margin-top: -48rem;
+  }
+
+  .c-l-t-col:not(:last-child) .contact::after {
+    display: none;
+  }
+
+  .service-text-wrap {
+    padding: 3rem;
+  }
+
+  /* 
+	--------------------------------------
+	Center Section Responsive
+	--------------------------------------
+	*/
+  .center-circle {
+    max-width: 13rem;
+    bottom: 3%;
+  }
+
+  /* 
+	--------------------------------------
+	Projects Section Responsive
+	--------------------------------------
+	*/
+  .projects .projects-text {
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+    right: 2rem;
+  }
+
+  /* 
+	--------------------------------------
+	Packages Section Responsive
+	--------------------------------------
+	*/
+  .packages-tab .packages-tablink {
+    margin: 0 0.5rem 3rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .packages-tab .packages-tablink.active::after {
+    border-width: 1.5rem 1.5rem 0 1.5rem;
+    bottom: -1.5rem;
+  }
+
+  /* 
+	--------------------------------------
+	Testimonial Section Responsive
+	--------------------------------------
+	*/
+  .testimonial-slide {
+    padding-left: 2rem;
+  }
+
+  .testimonial-client-feed::before {
+    left: -0.9rem;
+  }
+
+  /* 
+	--------------------------------------
+	News Section Responsive
+	--------------------------------------
+	*/
+  .news-car-left {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  /* 
+	--------------------------------------
+	Choose Section Responsive
+	--------------------------------------
+	*/
+  .choose-img .choose-discount {
+    width: 14.6rem;
+    height: 14.6rem;
+  }
+  .choose-discount .choose-discount-title {
+    font-size: 2rem;
+  }
+
+  /* 
+	--------------------------------------
+	News Section Responsive
+	--------------------------------------
+	*/
+  .subscribe-wrap-row {
+    padding: 3rem 1rem;
+  }
+
+  .subscribe-form .subscribe-input {
+    padding-left: 1rem;
+  }
+
+  .subscribe-btn {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  /* 
+	--------------------------------------
+	Choose Section Responsive
+	--------------------------------------
+	*/
+  .choose-img .choose-discount {
+    width: 11rem;
+    height: 11rem;
+  }
+  .choose-discount .choose-discount-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 370px) {
+  /* 
+	--------------------------------------
+	Header Section Responsive
+	--------------------------------------
+	*/
+  .header .navbar-area {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  /* 
+	--------------------------------------
+	Banner Section Responsive
+	--------------------------------------
+	*/
+  .banner-btn a {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+
+  .banner-btn a:nth-child(2) {
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "DM Sans 500";
+  src: url("DMSans-Medium.woff") format("woff"),
+    url("DMSans-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DM Sans 400";
+  src: url("DMSans-Regular.woff") format("woff"),
+    url("DMSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins 700";
+  src: url("Poppins-Bold.woff") format("woff"),
+    url("Poppins-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins 600";
+  src: url("Poppins-SemiBold.woff") format("woff"),
+    url("Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins 500';
+  src: url('Poppins-Medium.woff') format('woff'),
+      url('Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins 400';
+  src: url('Poppins-Regular.woff') format('woff'),
+      url('Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
