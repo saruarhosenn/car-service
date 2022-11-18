@@ -569,7 +569,7 @@ Responsive Breakpoint
 	--------------------------------------
 	*/
   .banner-section {
-    padding: 12rem 0 20rem;
+    padding: 15rem 0 20rem;
   }
 
   /* 
@@ -732,3 +732,4 @@ Responsive Breakpoint
     font-size: 1.8rem;
   }
 }
+
