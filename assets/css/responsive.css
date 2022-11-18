@@ -560,7 +560,7 @@ Responsive Breakpoint
 	-------------------------------------------
 	*/
   .wrapper {
-    padding: 0 1.5rem;
+    padding: 0 1.7rem;
   }
 
   /* 
@@ -721,5 +721,14 @@ Responsive Breakpoint
 
   .banner-btn a:nth-child(2) {
     margin-left: 1rem;
+  }
+
+   /* 
+	--------------------------------------
+	testimonial Section Responsive
+	--------------------------------------
+	*/
+  .testimonial-client-name h4 {
+    font-size: 1.8rem;
   }
 }
