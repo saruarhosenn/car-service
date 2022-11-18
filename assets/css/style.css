@@ -877,8 +877,8 @@ Start Service Section
 
 /*--- Contact, Location & Time ---*/
 .contact-location-time {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-top: -29rem;
 }
 
@@ -1362,22 +1362,25 @@ Start Packages Section
   margin-right: 1.1rem;
 }
 
-.packages-content .packages-btn {
-  display: table;
+.packages-content .packages-btn-wrap {
+  width: 100%;
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -29px;
+  bottom: -2.9rem;
   margin: auto;
+}
+
+.packages-btn-wrap .packages-btn {
   background-color: #fff3f6;
   border: 0.1rem solid #fcd4dc;
 }
 
-.packages-content .packages-btn {
+.packages-btn-wrap .packages-btn {
   color: var(--third-color);
 }
 
-.packages-content .packages-btn:hover {
+.packages-btn-wrap .packages-btn:hover {
   color: var(--secondary-color);
   background-color: var(--third-bg);
   border-color: transparent;
@@ -1506,20 +1509,23 @@ Start News Section
   margin-top: 1.6rem;
 }
 
-.news .news-btn {
-  padding: 1rem 2.6rem;
+.news .news-btn-wrap {
+  width: 100%;
   position: absolute;
   left: 0;
   right: 0;
   bottom: -2.5rem;
   margin: auto;
-  display: table;
+}
+
+.news-btn-wrap  .news-btn {
+  padding: 1rem 2.6rem;
   color: var(--third-color);
   background-color: #fcd4dc;
   border: 0.1rem solid var(--third-bg);
 }
 
-.news .news-btn:hover {
+.news-btn-wrap  .news-btn:hover {
   background-color: var(--third-bg);
   color: var(--secondary-color);
 }
@@ -1537,8 +1543,8 @@ Start News Section
   left: 0;
   right: 0;
   bottom: -6.3rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .subscribe-wrap-row {
